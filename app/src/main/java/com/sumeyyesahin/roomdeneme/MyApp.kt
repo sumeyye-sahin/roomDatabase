@@ -11,7 +11,6 @@ class MyApp : Application() {
     override fun onCreate() {
         super.onCreate()
 
-        // Room veritabanını başlatın
         database = Room.databaseBuilder(
             applicationContext,
             AppDatabase::class.java,
